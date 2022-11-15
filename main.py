@@ -16,7 +16,7 @@ print(sum(2,3,4,55,6,88,445,66,23))
 # its a step beyond args 
 def a_sum(**kwargs): #Use two asterisks = keys and values
   total = 0 
-  for key, value in kwargs.items():
+  for key, value in kwargs.items(): # two parts of dictionaries (key, value) collectivley they are knwn as items key + value = items 
     print(f'{key} = {value}')
     total += value
   return total
