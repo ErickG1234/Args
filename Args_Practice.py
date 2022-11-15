@@ -13,7 +13,7 @@ def sum_squares(*args):
   return total
 
 
-print(sum_squares(1, 4, 9))
+
 
 ########################################################################################################################
 # Indefinite Arguments (*args) Practice #2
@@ -21,14 +21,14 @@ print(sum_squares(1, 4, 9))
 
 
 def absolute_sum(*args):
-  absolute = 0
+  sum = 0
   for arg in args:
-    absolute += arg
-    abs(absolute)
-  return absolute
+    absolute_value = abs(arg)
+    sum += absolute_value
+  return abs(sum)
 
 
-print(absolute_sum(1, -4, -9))
+
 
 ########################################################################################################################
 # Indefinite Arguments (*args) Practice #3
